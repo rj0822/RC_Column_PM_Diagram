@@ -20,8 +20,8 @@ h = 16; % Section height (unit = inch).
 % Material properties.
 fc_1 = 5; % Concrete compressive strength for Problem 1 (unit = ksi).
 fc_2 = 8; % Concrete compressive strength for Problem 2 (unit = ksi).
-beta_1 = 0.85 - 0.05*(fc_1-4000)/1000;
-beta_2 = 0.85 - 0.05*(fc_2-4000)/1000;
+beta_1 = 0.85 - 0.05*(fc_1-4)/1;
+beta_2 = 0.85 - 0.05*(fc_2-4)/1;
 
 fy = 60; % Steel reinforcement yield strength (unit = ksi).
 Es = 29000; % Elastic modulus of steel reinforcement (unit = ksi).
